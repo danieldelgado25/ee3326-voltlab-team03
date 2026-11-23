@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Generated data (re-created by generate_dataset()) ---
+data/*.csv
+!data/.gitkeep
+
+# --- Secrets: never commit these ---
+.env
+*.key
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Large media: link videos in the README instead ---
+*.mp4
+*.mov
+*.mkv
